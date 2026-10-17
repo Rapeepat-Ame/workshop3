@@ -62,3 +62,8 @@ for(let z=0;z < x[0].length;z++){
 document.write("</table>");
 document.write("<br>")
 document.write("ALL TOTAL : ", total , "$")
+
+
+for (h=1;h<=10;h++) {
+    document.write("<br>","<img src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHd0ancxZHZjcnI2YjRnNnM3ejJ1bnh1dTBveG5ia2tyZnY4dGlzNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OuQmhmAAdJFLi/giphy.gif' width=50' alt='gif'>".repeat(h))
+}
